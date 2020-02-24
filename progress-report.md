@@ -22,7 +22,7 @@
 		- Because there are no word boundaries in Japanese, I'll use the word list to find some usage data in the conversational data I've acquired. 
 - I actually found and cleaned my corpora! 
 	- Filtered out unnecessary columns in the list of Katakana words 
-		- Dropped words with excessively low frequencies
+		- Dropped words with excessively low frequencies and words with no English equivalent
 	- Linked conversational data to age groups
 - Data sharing and licensing 
 	- See subsection below
