@@ -24,6 +24,7 @@
 	- Filtered out unnecessary columns in the list of Katakana words 
 		- Dropped words with excessively low frequencies and words with no English equivalent
 	- Linked conversational data to age groups
+	- Since Python doesn't like non-ASCII characters, I have to do some work with Unicode, so my last dataframe isn't 100% set yet with data, but a few lines of code will fix it. 
 - Data sharing and licensing 
 	- See subsection below
   
