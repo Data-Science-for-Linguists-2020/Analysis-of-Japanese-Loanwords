@@ -1,2 +1,0 @@
-# License
-Nothing here yet!
