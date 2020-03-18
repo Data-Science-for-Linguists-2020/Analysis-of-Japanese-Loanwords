@@ -4,5 +4,5 @@ A LING1340 Spring 2020 Project by Lindsey Rojtas: This will be an analysis of ga
 ## General Info
 - Name: Lindsey Rojtas
 - Project Title: "Analysis of Japanese Loanwords"
-- Summary: This project will work with a Japanese corpus and filter out any words comprised of entirely Katakana, which is the Japanese alphabet used for non-Japanese words. There will likely be general analyses of length in katakana characters, as well as some other data points that I haven't determined yet (as of 2/5/2020). 
+- Summary: This project will analyze the use of Katakana words (many of which are gairaigo) among different age groups, as well as some general analysis of these Katakana words with regards to length and frequency. There is also a possibility (as of 3/18/2020) that certain machine learning algorithms will be used to predict the age group of a participant based on the amount of Katakana words used if a correlation between the two is found. 
 
