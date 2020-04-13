@@ -42,7 +42,7 @@ The corpora I'm using are both NINJAL corpora.
 ## Entry 3 - 3/23/2020
 ### Repo Changes
 - Changed `progressreport1` to `progressreports` to keep all my code in one place. 
-- Revised license file; project as a whole as well as the data I create is under the Unilicense. 
+- Revised license file; project as a whole as well as the data I create is under the <s>Unilicense</s> Creative Commons BY-NC-ND.  
 ### Accomplishments
 - Figured out that Unicode issue I was having
 	- All I needed to change was a parameter, but I appreciate the help I got in the comments on my last report! <3
@@ -51,6 +51,10 @@ The corpora I'm using are both NINJAL corpora.
 	- `byparticipant`, which may be renamed later, I don't know, is the Dataframe I'll really be working with from here on. It has all the participants, their ages, etc. and now has each line of conversation spoken by that person. I will use this to find the loanwords used from person to person to see if age plays a factor in their usage. 
 - Cleaned documentation from conversation files so it's just conversational data
 - Decided on licensing for my project and personal data
-	- I chose the Unilicense partially because of its simplicity. It's easy to read, contains mostly no legalese, and dedicates the works specified into the public domain. The big reason I chose it, though, is the importance of public domain data; the Internet is a free world and I want whoever finds this project useful to use it as they please to accomplish their own goals. It also ensures that any derivation of my project will also be dedicated to the public domain. Other projects of mine are operating/will also operate under the Unilicense, too. 
+	- <s>I chose the Unilicense partially because of its simplicity. It's easy to read, contains mostly no legalese, and dedicates the works specified into the public domain. The big reason I chose it, though, is the importance of public domain data; the Internet is a free world and I want whoever finds this project useful to use it as they please to accomplish their own goals. It also ensures that any derivation of my project will also be dedicated to the public domain. Other projects of mine are operating/will also operate under the Unilicense, too.</s> I changed my license to Creative Commons BY-NC-ND due to restrictions on my data. It's more restrictive than the Unilicense but has some feats I like anyway (i.e. noncommercial use only)
+- Mostly finished the data cleaning process
+	- The last step in my data cleaning/reorganizing process is unfortunately unfinished, but I did all I could. All that's left to do is move lines of conversation from one dataframe to another; I left my experimental code for that process in to show where I'm at, but other than that, I split the conversation by line and merged the lines that didn't have an M/FXXX in the front of them with the previous line (new lines seemed to also be a sentence delimiter). 
+- Performed all the analysis and data description I could; I'll go more in depth after I figure out the above issue. 
   
-[to be continued]
+  
+I appreciate the extra time that was given for me to work on this. To Jevon, the TAs, and my fellow linguists: be safe!!!
