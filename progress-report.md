@@ -8,7 +8,7 @@
 	- `progress-report` - you're looking at it! :)
 
 ## Entry 2 - 2/25/2020
-#### Repo Changes 
+### Repo Changes 
 - Added folders:
 	- `progress-notebooks` - notebooks for the progress reports; there'll probably be three of these but if I need to deviate for some reason I will
 	- `samples` - sample data!
@@ -16,7 +16,7 @@
 	- `progress-notebooks/progressreport1` - progress report notebook for this checkpoint; includes cleaning up some data, etc!
 	- `samples/wordlist_samples` - a csv with the first 100 words of a list of commonly used katakana words
 
-#### Accomplishments
+### Accomplishments
 - Developed a bigger question that complicates my project a bit more (in a good way!)
 	- How has the use of Katakana words changed over time? Which age groups use more gairaigo?
 		- Because there are no word boundaries in Japanese, I'll use the word list to find some usage data in the conversational data I've acquired. 
@@ -28,12 +28,12 @@
 - Data sharing and licensing 
 	- See subsection below
   
-#### Some notes 
+### Some notes 
 Due to the nature of this project, finding the data wasn't easy and took up most of the time I spent on this. As I was browsing, I came across some Anki flashcards that had basically what I needed, so I reached out to the [creator of them on Reddit](https://www.reddit.com/user/Alphyn), who told me [which corpus they used](https://pj.ninjal.ac.jp/corpus_center/bccwj/en/freq-list.html) (luckily, the lists on this site are free to use for academic purposes!) and even provided me with some files that were refined using that corpus data. 
   
 I also am somewhat more aware of what I want to do, since I know that just using a list of words and their frequencies isn't enough. I will use this list of Katakana words combined with some corpus with age group data to see how much Katakana word use has changed over time. The corpus I'm using is the Nagoya Conversation Corpus, which I'll provide more details on later because I had to not only clean it, but also construct some data to go along with it based off information given from the corpus.  
 
-#### Data Sharing
+### Data Sharing
 The corpora I'm using are both NINJAL corpora. 
   The [Nagoya Conversation Corpus](https://mmsrv.ninjal.ac.jp/nucc/) is a corpus of 129 unstructured conversations with several different participants of varying age groups. Information about the age groups can be found [here](https://mmsrv.ninjal.ac.jp/nucc/nucc_conversant.html). This corpus is licensed under [Creative Commons BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja), and as such, I am allowed to share this data so long as I don't modify it. I'm not sure exactly how I'll be uploading it yet. 
   
@@ -58,3 +58,19 @@ The corpora I'm using are both NINJAL corpora.
   
   
 I appreciate the extra time that was given for me to work on this. To Jevon, the TAs, and my fellow linguists: be safe!!!
+  
+    
+## Entry 4 - 4/14/2020
+### Repo Changes
+- Changed `progressreports` to `progress_data` - decided to parse it up a little. Once my dataframes were all settled as far as data I didn't create (like word frequencies in conversations, etc.) I pickled them and put them into a new dataframe in a new notebook (see below) so I could separate my cleaned data from other sources and my constructed data based off that clean data. Progress report 3 begins here
+- Created `progress_analysis` - see above; progress report 3 continues and concludes here
+- Added Guestbook to `README`
+### Accomplishments
+- Fixed that issue that I described in my last progress report
+	- I had to go back and rethink how I was going to append each string in `byfile` entries to a new array in `byparticipant`, but I decided to just make it a string instead of an array of strings. This will have its benefits in terms of efficiency 
+- Debugged some previous issues that I hadn't noticed before
+	- I forgot to reset the indices on `finalwordlist` in `progress_data` - there was an issue when I tried to go through the list of words when I was trying to find their conversational frequencies because the list of words went from index 0 to index 2. When I used `dropna()`, it got rid of the index, which isn't what I wanted it to do. I fixed this with some help from John! It's a one-liner, but a helpful one-liner nonetheless. 
+	- I kept having an issue where two participants had no conversation data in `byparticipant` even after I sorted through all the data. After putting in print statements everywhere, I noticed a typo in one of the CSV files that I created myself. I went through and fixed that error, as well as a couple of other errors like spaces/newlines where they shouldn't be and I doublechecked the participant IDs. One participant's data was fixed, but another one wasn't, so I investigated the text file that she was listed as a participant in; turns out, she never really said anything, so I took her name out of `byparticipant`. 
+- Performed preliminary analysis on potential data issues
+	- Some participants participated in more discussions than others, so there's a good chance the data will be skewed. In my `progress_analysis` notebook, I noted some potential solutions that will probably have varying degrees of success. 
+	- Revamped my `wordlist` dataframe a little; added a column for the frequencies in which the words occur *in the conversation files* to compare to their listed web-based frequencies and compared certain words frequencies. Also dropped words that were one Katakana character long, as their use was unlikely and there was a good chance some words were double/triple-counted. 
