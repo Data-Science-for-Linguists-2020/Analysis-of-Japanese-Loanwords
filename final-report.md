@@ -59,4 +59,4 @@ The possibility of a negative correlation was there, which is what I was looking
 ![png](images/lvf.png)
   
   
-  The test gave me -0.25, which [appears to be a very low-end moderate/fair correlation](https://www.sciencedirect.com/science/article/pii/S2452247318302164), or at least a high-end weak correlation. 
+The test gave me -0.25, which [appears to be a very low-end moderate/fair correlation](https://www.sciencedirect.com/science/article/pii/S2452247318302164), or at least a high-end weak correlation. My best guess for why it's so weak is that the longer words modeled to the right of the graph were harder to find a shorter version of when these words were making their way into Japanese language. It's a bit harder to find a shortened version of words like "communication" that are relatively common, so it makes sense that this correlation would be weak. If we looked at words of length 2-7 characters, the correlation would likely be much stronger. 
