@@ -54,4 +54,9 @@ In order to begin working with length vs. frequency, I got the lengths of the wo
     
 In general, the shorter Katakana-length words were more common, but I wanted to rule out the possibility that this could just be because of conversation topics. To do this, I looked at the translations for "demo" and "demonstration"; as expected, the translation for "demonstration" occurred 3 times in the conversation files while "demo" occurred six times. 
     
-The possibility of a negative correlation was there, which is what I was looking for. After going back and fixing that double counting issue I had above, I [plotted](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2020/Analysis-of-Japanese-Loanwords/blob/master/progress-notebooks/progress_analysis.ipynb#final-lvf) the length of all the Katakana words versus their conversational frequencies and ran a Spearman's Rho test. The test gave me -0.25, which [appears to be a very low-end moderate/fair correlation](https://www.sciencedirect.com/science/article/pii/S2452247318302164), or at least a high-end weak correlation. 
+The possibility of a negative correlation was there, which is what I was looking for. After going back and fixing that double counting issue I had above, I [plotted](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2020/Analysis-of-Japanese-Loanwords/blob/master/progress-notebooks/progress_analysis.ipynb#final-lvf) the length of all the Katakana words versus their conversational frequencies and ran a Spearman's Rho test. I decided to conduct the statistical test because as far as I could see from my bar graph, there seemed to be at least some correlation between length and conversational frequency. I didn't figure it would be strong because of that odd spike towards the write of the graph, but I still wanted to be sure. 
+  
+![png](images/lvf.png)
+  
+  
+  The test gave me -0.25, which [appears to be a very low-end moderate/fair correlation](https://www.sciencedirect.com/science/article/pii/S2452247318302164), or at least a high-end weak correlation. 
