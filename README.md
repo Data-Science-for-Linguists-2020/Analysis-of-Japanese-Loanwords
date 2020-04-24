@@ -7,7 +7,7 @@ ___
 **My Background**: I am an undergraduate computer science major and linguistics minor at the University of Pittsburgh. This is my repository for my term project in LING1340 (Data Science for Linguists), which evaluates the use of Japanese loan words borrowed from English. I can read a bit of Japanese, but I'm very limited in this reading. However, what I can understand is *katakana* characters, so I chose to work with loan words!
 ___
 ## About the Project
-*Katakana* is a syllabic Japanese script that is used for writing words that are onomatopoeia or loan words, usually of the Western variety. A way to compare this to English would be to think about how borrowed words are written in English, which is usually in italics (e.g. "getting a sense of *deja vu*"). *Gairaigo* is the word for "loan word" or "borrowed word" in Japanese.   
+*Katakana* is a syllabic Japanese script that is used for writing words that are onomatopoeia or loan words, usually of the Western variety. A way to compare this to English would be to think about how borrowed words are written in English, which is usually in italics (e.g. "getting a sense of *deja vu*"). *Gairaigo* is the word for "loan word" or "borrowed word" in Japanese. [Click here](https://difference.guru/difference-between-kanji-hiragana-and-katakana/) to learn more about the differences between Katakana and the other two Japanese scripts, Hiragana and Kanji.  
   
 My project looks at two aspects of katakana use: the length of the katakana word versus its conversational frequency, and the ratio of katakana words to total length of a string of utterances by a certain speaker versus the age of that speaker. I wanted to see if length and usage were correlated in any way, as well as age and amount of loan words used.   
   
@@ -34,6 +34,6 @@ ___
 ### Other
 - [`presentation`](https://github.com/Data-Science-for-Linguists-2020/Analysis-of-Japanese-Loanwords/tree/master/presentation): A folder for my presentation slides for this project in both .pdf (without audio) and .pptx (with audio) format
 - [`samples`](https://github.com/Data-Science-for-Linguists-2020/Analysis-of-Japanese-Loanwords/tree/master/samples): A folder that holds samples of my found data under Fair Use. 
-- [`images`](https://github.com/Data-Science-for-Linguists-2020/Analysis-of-Japanese-Loanwords): (tbd)
+- [`images`](https://github.com/Data-Science-for-Linguists-2020/Analysis-of-Japanese-Loanwords/tree/master/images): A folder for the .png files for my plots that are included in `final-report.md`. 
 - [Guestbook](https://github.com/Data-Science-for-Linguists-2020/Class-Plaza/blob/master/guestbooks/guestbook_lindsey.md): My peers' comments on my project
 
