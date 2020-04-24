@@ -1,4 +1,8 @@
 # Final Report
+- Lindsey Rojtas
+- LING1340
+- ler75@pitt.edu    
+
 Welcome to my final report for my term project! Great to have you here. 
 ## Table of Contents
 - [Background and Motivation](#bg)
