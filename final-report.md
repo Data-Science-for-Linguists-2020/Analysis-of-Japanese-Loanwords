@@ -96,10 +96,10 @@ So, as far as *this* data set goes, it's safe to say that there isn't much of a 
 ## Setbacks <a name='oof'></a>
 There's a lot I wish I could've done with this project, but just ended up running out of time because of life events or spending a bunch of time fixing bugs. I ran into tons of issues with assigning lines to their speakers I would've liked to use a mixed effects model or some other machine learning stuff here, because I was interested to see how a machine would predict a generation, but I ultimately ran out of time. I would also really liked to have had data that had more of an equal age distribution, maybe some data that was older than the stuff I found, but I'm pretty lucky to have found something easy to work with. Also, this is less of a setback and more of an annoyance, but my nbviewer version of my analysis notebook is out of date. It may fix itself by the time this gets graded, but it's pretty annoying. 
     
-## Concluding Remarks
+## Concluding Remarks <a name='concl'></a>
 This was a fun project! It was nice to start with something so small in the beginning-ish of the term and build it up to a culmination of what I've learned. I may revisit this project in the future when I gather more experience. My hypotheses were weakly proven at best, but the process of exploring and such is a worthwhile one. 
     
-## References
+## References <a name='ref'></a>
 - Differences between Japanese Writing Scripts: https://difference.guru/difference-between-kanji-hiragana-and-katakana/ 
 - Nagoya University Conversation Corpus: https://mmsrv.ninjal.ac.jp/nucc/
 - BCCWJ Word Lists: https://pj.ninjal.ac.jp/corpus_center/bccwj/en/freq-list.html
