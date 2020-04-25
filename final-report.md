@@ -66,3 +66,7 @@ This took a bit more data manipulation to analyze. I mentioned previously that t
     
 ![png](images/agegroup_length_box.png)
 ![png](images/agegroup_length_swarm.png)
+    
+Clearly, there are more 20somethings than anything else. I knew I had to work with a different sorting of age groups. I tried to go by generation, which is, [on average, 25 years](https://isogg.org/wiki/How_long_is_a_generation%3F_Science_provides_an_answer). I rounded down to 20 years to make for easy parsing. In the following plot, generation 1 is teens-20s, generation 2 is 30s-40s, and so forth. I also combined anyone over 60 into generation 5 because there are so few participants that are 70 years old and over. This five-generation model was better, but it wasn't where I wanted it to be. 
+    
+![png](images/generation_test.png)
