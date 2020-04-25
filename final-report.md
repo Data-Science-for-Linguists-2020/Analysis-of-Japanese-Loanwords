@@ -70,3 +70,37 @@ This took a bit more data manipulation to analyze. I mentioned previously that t
 Clearly, there are more 20somethings than anything else. I knew I had to work with a different sorting of age groups. I tried to go by generation, which is, [on average, 25 years](https://isogg.org/wiki/How_long_is_a_generation%3F_Science_provides_an_answer). I rounded down to 20 years to make for easy parsing. In the following plot, generation 1 is teens-20s, generation 2 is 30s-40s, and so forth. I also combined anyone over 60 into generation 5 because there are so few participants that are 70 years old and over. This five-generation model was better, but it wasn't where I wanted it to be. 
     
 ![png](images/generation_test.png)
+      
+I still wasn't happy with this, so I split the generations in a different way:
+- Generation A: Early Teens to Early Twenties (64 participants)
+- Generation B: Late Twenties to Late Thirties (66 participants)
+- Generation C: Early Forties to Late Fifties (46 participants)
+- Generation D: Early Sixties to Early Nineties (21 participants)
+    
+This isn't totally even. I could've made it even by combining generations C and D, but I wasn't comfortable having such a wide age range for one "generation." Still, this is more equal than it was previously:
+    
+![png](images/generation_final.png)    
+
+The average ratios for each generation are as follows:
+- Generation A (Teens-Early Twenties): 0.012766909495889664
+- Generation B (Late Twenties-Thirties): 0.012338271480237395
+- Generation C (Forties-Fifties): 0.013281978815331375
+- Generation D (Sixties-Early Nineties): 0.010426972368483237
+    
+As such, a Spearman's Rho run gave me a correlation of -0.11, which is incredibly weak, if there is a correlation at all. This makes sense for generations A-C, but there does seem to be a significant drop-off with generation D. As I was thinking about why this could be, I began brainstorming on the history of Japan as a whole. To reiterate a point I made in my notebook:
+    
+> This conversational data is from 2001, almost two decades ago. The oldest group of people, those in their early nineties, were born around 110 years ago, the 1910s. Japan didn't go through too much thorough Westernization until post-World War II, around the late 1940s-early 1950s, which is closer to when those in generation C were born. This would explain the slight spike and persistent fluctuation of katakana ratios from generations A-C, but a big drop-off in generation D.
+    
+So, as far as *this* data set goes, it's safe to say that there isn't much of a correlation between age and Katakana use. If there is one, it's incredibly weak. However, I do think that we would get a stronger correlation if I had older data, as generation D has such a larger drop-off compared to other generations. 
+    
+## Setbacks <a name='oof'></a>
+There's a lot I wish I could've done with this project, but just ended up running out of time because of life events or spending a bunch of time fixing bugs. I ran into tons of issues with assigning lines to their speakers I would've liked to use a mixed effects model or some other machine learning stuff here, because I was interested to see how a machine would predict a generation, but I ultimately ran out of time. I would also really liked to have had data that had more of an equal age distribution, maybe some data that was older than the stuff I found, but I'm pretty lucky to have found something easy to work with. Also, this is less of a setback and more of an annoyance, but my nbviewer version of my analysis notebook is out of date. It may fix itself by the time this gets graded, but it's pretty annoying. 
+    
+## Concluding Remarks
+This was a fun project! It was nice to start with something so small in the beginning-ish of the term and build it up to a culmination of what I've learned. I may revisit this project in the future when I gather more experience. My hypotheses were weakly proven at best, but the process of exploring and such is a worthwhile one. 
+    
+## References
+- Differences between Japanese Writing Scripts: https://difference.guru/difference-between-kanji-hiragana-and-katakana/ 
+- Nagoya University Conversation Corpus: https://mmsrv.ninjal.ac.jp/nucc/
+- BCCWJ Word Lists: https://pj.ninjal.ac.jp/corpus_center/bccwj/en/freq-list.html
+- How Long is a Generation?: https://isogg.org/wiki/How_long_is_a_generation%3F_Science_provides_an_answer
