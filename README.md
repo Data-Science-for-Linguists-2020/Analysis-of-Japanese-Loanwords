@@ -20,8 +20,8 @@ My project looks at two aspects of katakana use: the length of the katakana word
 - [`final-report.md`](https://github.com/Data-Science-for-Linguists-2020/Analysis-of-Japanese-Loanwords): (tbd)
 
 ### Notebooks/Code (progress-notebooks folder)
-- [`progress_data`](https://github.com/Data-Science-for-Linguists-2020/Analysis-of-Japanese-Loanwords/blob/master/progress-notebooks/progress_data.ipynb): [NBVIEWER VERSION](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2020/Analysis-of-Japanese-Loanwords/blob/master/progress-notebooks/progress_data.ipynb); A Jupyter Notebook that documents my data gathering and cleaning process as I prepped it for analysis.
-- [`progress_analysis`](https://github.com/Data-Science-for-Linguists-2020/Analysis-of-Japanese-Loanwords/blob/master/progress-notebooks/progress_analysis.ipynb): [NBVIEWER VERSION](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2020/Analysis-of-Japanese-Loanwords/blob/master/progress-notebooks/progress_analysis.ipynb)  A Jupyter Notebook that documents my data manipulation and analysis of both length/usage and age/usage processes as I drew conclusions.
+- [`progress_data`](https://github.com/Data-Science-for-Linguists-2020/Analysis-of-Japanese-Loanwords/blob/master/progress-notebooks/progress_data.ipynb): A Jupyter Notebook that documents my data gathering and cleaning process as I prepped it for analysis.
+- [`progress_analysis`](https://github.com/Data-Science-for-Linguists-2020/Analysis-of-Japanese-Loanwords/blob/master/progress-notebooks/progress_analysis.ipynb):  A Jupyter Notebook that documents my data manipulation and analysis of both length/usage and age/usage processes as I drew conclusions.
 
 ### Other
 - [`presentation`](https://github.com/Data-Science-for-Linguists-2020/Analysis-of-Japanese-Loanwords/tree/master/presentation): A folder for my presentation slides for this project in both .pdf (without audio) and .pptx (with audio) format
