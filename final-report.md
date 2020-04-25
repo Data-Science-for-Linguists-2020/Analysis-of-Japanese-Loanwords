@@ -59,4 +59,10 @@ The possibility of a negative correlation was there, which is what I was looking
 ![png](images/lvf.png)
   
   
-The test gave me -0.25, which [appears to be a very low-end moderate/fair correlation](https://www.sciencedirect.com/science/article/pii/S2452247318302164), or at least a high-end weak correlation. My best guess for why it's so weak is that the longer words modeled to the right of the graph were harder to find a shorter version of when these words were making their way into Japanese language. It's a bit harder to find a shortened version of words like "communication" that are relatively common, so it makes sense that this correlation would be weak. If we looked at words of length 2-7 characters, the correlation would likely be much stronger. 
+The test gave me -0.25, which [appears to be a very low-end moderate/fair correlation](https://www.sciencedirect.com/science/article/pii/S2452247318302164), or at least a high-end weak correlation. My best guess for why it's so weak is that the longer words modeled to the right of the graph were harder to find a shorter version of when these words were making their way into Japanese language. It's a bit harder to find a shortened version of words like "communication" that are relatively common, so it makes sense that this correlation would be weak. If we looked at words of length 2-7 characters, the correlation would likely be much stronger. I didn't take web frequency into account because I'm more focused on conversational usage. Sometimes, words are way easier to type than they are to say. 
+
+### Age vs. Katakana Use <a name='avk'></a>
+This took a bit more data manipulation to analyze. I mentioned previously that there were some participants that participated in many more files than others. I accounted for this issue by taking the ratio of Katakana words used by each participant to the length of their big long string of utterances. Ideally, according to my hypothesis, younger participants would have a higher KLR. However, I had to manipulate my age groups a bit to ensure that the data was as equally distributed as I could get it. To get an idea of how I'd need to sort things, I grouped by decade of age and plotted swarm and box plots:
+    
+![png](images/agegroup_length_box.png)
+![png](images/agegroup_length_swarm.png)
